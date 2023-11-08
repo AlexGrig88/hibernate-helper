@@ -4,12 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.time.LocalDate;
+
 
 @Data
 @AllArgsConstructor
@@ -17,6 +20,7 @@ import java.time.LocalDate;
 @Builder
 @Entity
 @Table(name = "employee", schema = "public")
+// @TypeDef(name = "myjsonbname", typeClass = JsonBinaryType.class)
 public class Employee {
 
     @Id
@@ -25,7 +29,15 @@ public class Employee {
     private String firstName;
     @Column(name = "last_name")
     private String lastName;
-    private Integer age;
+
     @Column(name = "birth_date")
-    private LocalDate birthDate;
+    private BirthDate birthDate;
+
+    @Enumerated(EnumType.STRING)
+    private Role role;
+
+    @Type(type = "com.vladmihalcea.hibernate.type.json.JsonBinaryType")
+    // @Type(type = "jsonb")
+    private String info;
+
 }
