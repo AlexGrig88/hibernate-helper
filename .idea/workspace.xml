@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f75868ec-acd6-408c-a7e7-5ecf629ab66e" name="Changes" comment="created configuration and func saving entity">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/grig/edu/converters/BirthDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/grig/edu/entities/BirthDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/grig/edu/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/grig/edu/type/MyJsonType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f75868ec-acd6-408c-a7e7-5ecf629ab66e" name="Changes" comment="added working with custom type">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/grig/edu/entities/PersonalInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grig/edu/HibernateRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grig/edu/HibernateRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grig/edu/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grig/edu/entities/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,10 +99,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -177,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699381285550</updated>
       <workItem from="1699381287749" duration="1498000" />
-      <workItem from="1699389343658" duration="5707000" />
+      <workItem from="1699389343658" duration="8667000" />
     </task>
     <task id="LOCAL-00001" summary="created configuration and func saving entity">
       <option name="closed" value="true" />
@@ -187,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699388826584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added working with custom type">
+      <option name="closed" value="true" />
+      <created>1699426268599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699426268600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,18 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created configuration and func saving entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="created configuration and func saving entity" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/grig/edu/HibernateRunner.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added working with custom type" />
+    <option name="LAST_COMMIT_MESSAGE" value="added working with custom type" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
